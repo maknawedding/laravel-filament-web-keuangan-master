@@ -1,0 +1,13 @@
+Cara Install
+- extract .zip
+- buka folder project dengan visual studio code, atau text editor lainnya
+- buat database terlebih dahulu, misal beri nama databasenya "web-keuangan"
+
+Selanjutnya
+- buka terminal
+- jalankan perintah "composer update"
+- jalankan perintah "cp .env.example .env" (membuat file .env)
+- masukan nama database, username, dan password di file .env
+- jalankan perintah "php artisan key:generate"
+- jalankan perintah "php artisan storage:link"
+- lalu terakhir jalankan "php artisan serve" 
